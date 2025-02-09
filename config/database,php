@@ -2,7 +2,7 @@
 $host = "localhost"; // Cambiar a tu servidor en Heroku
 $user = "root"; // Usuario de la BD
 $pass = ""; // Contraseña
-$dbname = "tienda";
+$dbname = "Store";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
