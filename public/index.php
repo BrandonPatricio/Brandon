@@ -9,7 +9,7 @@ $login_url = $client->createAuthUrl();
     <title>Login</title>
 </head>
 <body>
-    <h2>Iniciar</h2>
+    <h2>Iniciar sesión</h2>
     <a href="<?= $login_url ?>">Iniciar con Google</a>
 </body>
 </html>
